@@ -1,3 +1,3 @@
-# Dipper
+# Dipper (Assignment 1)
 
-Assignment.
+# How to use?
