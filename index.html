@@ -1,0 +1,32 @@
+<style>
+#header {
+    background-color:grey ;
+    color:white;
+    text-align:center;
+    padding:3px;
+}
+</style>
+<body bgcolor=lightblue>
+
+<div id=header>
+			<center><h1 style="font-family:verdana;" > Address (State/City)</h1> </center>
+</div>
+<hr>
+
+			<script type= "text/javascript" src = "states.js"></script>
+<div id=header>
+		
+			<center><p>Select State/territory:</p> 
+			<select onchange="print_city('city',this.selectedIndex);" id="state" name ="state"></select></center>
+</div>
+<hr>
+<div id=header>
+
+
+			<center><p>Select City:</p> 
+			<select name ="city" id ="city"></select>
+			<script language="javascript">print_state("state");</script></center>
+<hr>
+<div>
+<hr>
+</body>
