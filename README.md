@@ -1,4 +1,4 @@
-# Dipper (Assignment 1)
+# Dipper
 
 # How to use?
 1. Fork/clone the repository "Dipper" to your PC. // $git clone  git@github.com:raj-maurya/Dipper.git
